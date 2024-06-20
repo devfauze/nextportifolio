@@ -32,7 +32,7 @@ const About = () => {
                     hello everyone
                 </h1>
                 <p>my name is fauze</p>
-                <p>i'm a fullstack developer</p>
+                <p>im a fullstack developer</p>
 
                 <div className="mt-10">
                     <p className='font-extralight text-xl'>i like to {" "}

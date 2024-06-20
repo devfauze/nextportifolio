@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Fauze from '../assets/byfauze.svg'
 import Emoji from '../assets/myemoji2.png'
-import { Metadata } from "next";
 
 const Page = () => {
   return (
@@ -68,7 +67,7 @@ const Page = () => {
                         </span>
                         </h2>
                         <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        things I've been building 
+                        things Ive been building 
                         </p>
                 </Link>
 
