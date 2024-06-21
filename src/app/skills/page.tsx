@@ -6,7 +6,6 @@ import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
-import { SiBulma } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiMysql } from "react-icons/si";

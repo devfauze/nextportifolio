@@ -32,7 +32,9 @@ const ProjectPage: React.FC = () => {
     }, []);
 
     if (loading) {
-        return <div>Loading...</div>;
+        return <div className="text-center text-3xl font-bold text-green-400">
+                    Loading...
+                </div>;
     }
 
     return(
