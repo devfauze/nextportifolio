@@ -4,6 +4,7 @@ import GoBack from '../../assets/goback.svg'
 import { ReactTyped } from "react-typed"
 
 
+
 const About = () => {
     return(
     <>

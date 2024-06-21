@@ -2,14 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import Fauze from '../assets/byfauze.svg'
 import Emoji from '../assets/myemoji2.png'
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaFileDownload } from "react-icons/fa";
 
 const Page = () => {
   return (
     <>
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="flex min-h-screen flex-col items-center justify-between p-24 max-[768px]:p-16">
             <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-                
-                <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
+                <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
                     <a
                         className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
                         href="https://github.com/devfauze"
@@ -27,6 +29,24 @@ const Page = () => {
                         />
                     </a>
                 </div>
+                <section className="fixed bottom-14 left-0 flex h-24 w-full items-end justify-center lg:static lg:size-auto lg:bg-none">
+                    <a href="https://linkedin.com/in/devfauze"
+                        target="blank"
+                    >
+                        <FaLinkedinIn className="h-7 w-7 mx-2 my-5 hover:text-blue-400 hover:scale-125 duration-200"/>
+                    </a>
+
+                    <a href="https://github.com/devfauze"
+                        target="blank"
+                        >
+                        <FaGithub className="h-7 w-7 mx-2 my-5 hover:text-zinc-600 hover:scale-125 duration-200"/>
+                    </a>
+
+                    
+                    <a href="https://github.com/devfauze/ReactPortifolio/files/14380594/cv.pdf" download>
+                        <FaFileDownload className="h-7 w-7 mx-2 my-5 hover:text-red-400 hover:scale-125 duration-200"/>
+                    </a>
+                </section>
             </div>
 
             <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-emerald-200 after:via-green-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-green-700 before:dark:opacity-10 after:dark:from-emerald-900 after:dark:via-[#01ffb3] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
@@ -40,7 +60,7 @@ const Page = () => {
                 />
             </div>
 
-            <div className="mb-32 grid text-center gap-1 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left">
+            <div className="mb-32 grid place-items-center gap-1 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left">
                 <Link 
                     className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-green-700 hover:dark:bg-neutral-800/30"
                     href={'/about'}
