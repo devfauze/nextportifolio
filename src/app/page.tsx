@@ -43,7 +43,7 @@ const Page = () => {
                     </a>
 
                     
-                    <a href="https://github.com/devfauze/ReactPortifolio/files/14380594/cv.pdf" download>
+                    <a href="https://github.com/user-attachments/files/16614719/FAUZE_PTBR.pdf" download>
                         <FaFileDownload className="h-7 w-7 mx-2 my-5 hover:text-red-400 hover:scale-125 duration-200"/>
                     </a>
                 </section>
